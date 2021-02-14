@@ -13,7 +13,7 @@ const app = {
             this.list[index].fav = !this.list[index].fav
         }
     },
-    calculated: {
+    computed: {
         countFav() {
             return this.list.filter((l)=> l.fav ).length;
         }
